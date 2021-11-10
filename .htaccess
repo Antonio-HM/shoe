@@ -1,0 +1,10 @@
+#bloquea acceso a otros arcivos eje. localhost/zapato/Congig
+Options All -Indexes
+
+#paginas erro
+ErrorDocument 404 /zapato/404.html
+ErrorDocument 403 /zapato/403.html
+
+#htaccess full servidor block
+#se copia todo el conteido de arriba en un .htaccess
+
